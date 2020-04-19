@@ -1,0 +1,9 @@
+<html>
+   <body>
+      <form action = "/uploader" method = "POST" 
+        {% for item in data %}
+   		 <p> {{ item }} </p>
+	{% endfor %}
+      </form>
+   </body>
+</html>
